@@ -1,0 +1,332 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.title-style{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+/* Header start here */
+.header-container{
+    text-align: center;
+}
+.header-container img{
+    width:10%;
+}
+/* Nav start here */
+.container-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.nav-container a{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* Hero section start here */
+.hero-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.hero-container-img img{
+    border: 1px solid #00000056;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.119) 0px 0px 16px;
+}
+.hero-container-post{
+    margin-left: 50px;
+}
+/* Blog post start here */
+.blog-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.blog-container-post{
+    border: 1px solid #00000056;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.119) 0px 0px 16px;
+}
+.blog-container-post-img img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.blog-containter-post-content{
+    padding: 20px;
+}
+.blog-containter-post-content a{
+    text-decoration: none;
+    color: #000000;
+    border: 2px solid #000000;
+    padding: 5px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+/* Review know start here */
+.review-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    gap: 25px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.review-container-post{
+    text-align: center;
+    padding: 20px;
+    height: 450px;
+    border: 1px solid #00000056;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.119) 0px 0px 16px;
+    background-color:#58565613;
+}
+.review-container-post-content{
+    padding: 20px;
+}
+.review-container-post-img{
+    text-align: center;
+    margin-top: 50px;
+}
+.review-container-post-img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.review-containter-post-content-author a{
+    text-decoration: none;
+    color: #000000;
+    border: 2px solid #000000;
+    padding: 5px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive start here */
+/* header part start here */
+@media (max-width:767px) {
+    body{
+         margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    /* Header start here */
+    .header-container{
+        text-align: center;
+    }
+    .header-container img{
+        width:20%;
+        margin-top: -15px;
+    }
+ /* Nav start here */
+.container-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 90%;
+    margin: auto;
+    padding: 0px;
+    margin-top: -20px;
+    padding-right: 5px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+}
+.nav-container a{
+    color: #000000;
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* Hero section start here */
+.hero-container{
+    display: grid;
+    grid-template-columns:1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+.hero-container-img{
+    text-align: center;
+    margin-top: 20px;
+}
+.hero-container-img img{
+    width: 90%;
+    border: 1px solid #00000056;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.119) 0px 0px 16px;
+}
+.hero-container-post{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 15px
+}
+h5{
+    font-size: 10px;
+    font-weight: 600;
+}
+h2{
+    font-size: 18px;    
+}
+p{
+    font-size: 12px;
+}
+/* Blog post start here */
+.blog-container{
+    display: grid;
+    grid-template-columns:1fr;
+    gap: 25px;
+    margin-bottom: 40px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.blog-container-post{
+    border: 1px solid #00000056;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.119) 0px 0px 16px;
+}
+.blog-container-post-img img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.blog-containter-post-content{
+    padding: 20px;
+}
+.blog-containter-post-content a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #000000;
+    border: 2px solid #000000;
+    padding: 5px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.title-style{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top:-5px;
+}
+/* Review know start here */
+.review-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin-bottom: 30px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.review-container-post{
+    text-align: center;
+    padding: 20px;
+    height: 350px;
+    border: 1px solid #00000056;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.119) 0px 0px 16px;
+}
+.review-container-post-content{
+    padding: 20px;
+}
+.review-container-post-img{
+    text-align: center;
+    margin-top:15px;
+}
+.review-container-post-img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.review-containter-post-content-author a{
+    font-size: 10px;
+    text-decoration: none;
+    color: #000000;
+    border: 2px solid #000000;
+    padding: 5px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
